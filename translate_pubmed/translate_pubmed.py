@@ -80,6 +80,8 @@ offset = args.offset
 start = file_length*offset
 input_files = input_files[start:start+file_length]
 
+print('='*20, 'Input Files', '='*20)
+print(input_files)
 os.system('mkdir vi')
 for input_file in input_files:
     # Ignore any logging so that we only see the model's answers to the questions.
