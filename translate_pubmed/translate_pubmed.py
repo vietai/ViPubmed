@@ -9,7 +9,6 @@ import gin
 import t5
 import os
 from t5.models import MtfModel
-from datasets import load_metric
 
 print(tensorflow.__version__)
 
