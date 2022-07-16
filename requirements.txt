@@ -1,2 +1,3 @@
 pubmed_parser
 t5
+mesh-tensorflow==0.1.19

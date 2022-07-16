@@ -69,7 +69,7 @@ model = MtfModel(
 import os.path
 
 vocab = f"gs://translationv2/models/spm/cc100_envi_vocab.model"
-input_files = [x for x in tf.io.gfile.glob('gs://vien-translation/raw/filtered_len_pubmed/*txt')]
+input_files = [x.split('-')[0] for x in tf.io.gfile.glob('gs://vien-translation/raw/filtered_len_pubmed/*txt')]
 
 os.system('mkdir vi')
 existed_file = os.listdir('vi')
