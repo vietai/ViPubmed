@@ -70,7 +70,7 @@ import os.path
 
 vocab = f"gs://translationv2/models/spm/cc100_envi_vocab.model"
 input_files = [x for x in tf.io.gfile.glob('gs://vien-translation/raw/filtered_len_pubmed/*txt')]
-cloud_files = [x for x in tf.io.gfile.glob('gs://vien-translation/data/vi_pubmed_with_vi_tag_512/*txt')]
+cloud_files = [x for x in tf.io.gfile.glob('gs://vien-translation/data/vi_pubmed_with_vi_tag_512/*txt*')]
 
 os.system('mkdir vi')
 existed_file = [x.split('-')[0] for x in os.listdir('vi')] + [x.replace('gs://vien-translation/data/vi_pubmed_with_vi_tag_512/', '').split('-')[0] for x in cloud_files]
