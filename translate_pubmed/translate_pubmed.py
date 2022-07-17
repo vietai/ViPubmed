@@ -9,7 +9,6 @@ import gin
 import t5
 import os
 from t5.models import MtfModel
-from tqdm import tqdm
 
 print(tensorflow.__version__)
 
@@ -85,12 +84,12 @@ input_files = input_files[start:start+file_length]
 print('='*20, 'Input Files', '='*20)
 print(input_files)
 
-for input_file in tqdm(input_files,  leave=False):
+for index, input_file in enumerate(input_files):
     # Ignore any logging so that we only see the model's answers to the questions.
     output_file = input_file.replace('gs://vien-translation/raw/filtered_len_pubmed/', '')
     import time
     start_time = time.time()
-    print('Starting ', output_file)
+    print(f'Starting {index}/{len(input_files) - 1}', output_file)
     predict_inputs_path = input_file
     predict_outputs_path = f"vi/{output_file}"
 
