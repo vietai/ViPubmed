@@ -85,7 +85,7 @@ input_files = input_files[start:start+file_length]
 print('='*20, 'Input Files', '='*20)
 print(input_files)
 
-for input_file in tqdm(input_files):
+for input_file in tqdm(input_files,  leave=False):
     # Ignore any logging so that we only see the model's answers to the questions.
     output_file = input_file.replace('gs://vien-translation/raw/filtered_len_pubmed/', '')
     import time
