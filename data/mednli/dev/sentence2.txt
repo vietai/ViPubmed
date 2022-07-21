@@ -1,0 +1,1395 @@
+Patient has angina
+Patient has had multiple PEs
+Patient has CAD
+He has been less alert over the past week
+Over the past week he has been alert and oriented
+He is disorientated and complains of weakness
+the patient has a history of obstructive lung disease
+the patient has normal lungs
+the patient is a smoker
+The patient is in respiratory failure.
+The patient is on room air.
+The patient has pulmonary edema.
+The patient is pregnant.
+The patient is not pregnant.
+The patient has preeclampsia.
+the patient has heart failure
+the patient has a normal heart
+the patient is hypotensive
+Patient has been eating by mouth
+She has been NPO since midnigh
+Patient has history of dysphagia
+Patient has had a procedure
+Patient has metastases to the spine
+Patient has cancer
+the patient denies chest pain
+the patient has chest pain
+the patient has no medical history
+Patient has negative ROS
+Patient has headaches
+Patient has negative exam
+the patient has intracranial hemorrhage
+the patient had a normal head ct
+the patient had hypertensive hemorrhage
+The patient has myocardial ischemia.
+The patient has normal myocardial perfusion.
+The patient has chest pain.
+The patient has a chronic illness.
+The patient does not have an infection.
+The patient has an AIDS related infection.
+Chest x-ray showed no consolidation
+Chest x-ray showed infiltrates
+The patient denies cough or shortness of breath
+The patient has type II diabetes.
+The patient has normal blood glucose.
+The patient does not require insulin.
+He had high blood sugar levels
+Blood sugars were within normal limits
+He has diabetic neuropathy
+The patient has brain damage.
+The patient has normal neural anatomy.
+The patient has multiple medical conditions.
+History of elevated intracranial pressure
+No history of neurological symptoms
+History of seizures
+the patient has ascites
+the patient has no ascites
+the patient has SBP
+He had a reaction after eating nuts
+He denies allergic reactions to food or drugs
+He has several allergies to food and drugs
+The patient has a heart valve abnormality
+Her heart valves were functioning normally
+She has shortness of breath
+Patient has recent trauma
+Patient has not been in an accident
+Patient has pain
+Patient has an infection
+Patient has no complaints
+Patient is febrile
+Congestive heart failure
+No history of heart disease
+complains of shortness of breath
+Treated with Rituximab
+No history of treatment with monoclonal antibody
+History of cancer
+History of gastroesophageal reflux disease
+No history of gastroesophageal reflux disease
+Received a proton pump inhibitor
+Patient has skin findings on exam
+Patient has no exam findings
+Patient has NF-1
+The patient has pain issues.
+The patient does not have pain.
+The patient has cancer.
+Patient has pulmonary edema
+Patient has normal EF
+Patient has DOE
+the patient has intracranial hemorrhage
+the patient has a normal brain
+the patient had hypertensive hemorrhage
+The infant was just born.
+The infant was still born.
+The patient was born by vaginal delivery.
+Patient requires a CABG
+Patient has normal coronaries
+Patient has PAD
+Head CT showed no hemorrhage
+Head CT showed hemorrhage
+Head CT was normal, patient complains of headache
+He has recent dyspnea
+He denies recent dyspnea
+He has a history of congestive heart failure
+The patient has multiple medical problems.
+The patient has no past medical history.
+The patient is obese.
+the patient has a history of recurrent utis
+the patient has no history of UTI
+the patient is female
+Patient has no angina
+Patient is febrile
+Patient has a negative physical exam
+Patient has been resuscitated
+Patient has normal vital signs
+Patient has hypotension
+There is an abnormal finding in the lateral wall
+There are no abnormal findings
+The patient is symptomatic
+Patient has had an allergic reaction
+Patient has negative ROS
+Patient has recently had iodinated contrast
+The patient is fluid overloaded.
+The patient has a normal heart.
+The patient has congestive heart failure.
+patient was diuresed
+patient is fluid depleted
+patient has CHF
+The EKG shows signs of cardiac ischemia.
+The patient has a normal EKG.
+The patient has chest pain.
+Patient has cardiac disease
+Patient has no prior intervention
+Patient has conduction abnormality
+Patient is disorientated
+Patient can follow verbal requests
+Patient has an abnormal MMSE
+The patient has no intracranial hemorrhage.
+The patient has intracranial hemorrhage.
+There is concern for stroke.
+The patient has a rash.
+The patient has a normal dermatologic exam.
+The patient has allergic dermatitis.
+The patient does not have abnormal heart sounds.
+The patient has a mitral regurgitation murmur.
+The patient the patient does not have congestive heart failure.
+Patient has malignancy
+Patient has not had surgery
+Patient has metastatic disease
+patient has normal cardiac output
+patient has normal coronary arteries
+patient will go for coronary angiography
+The patient has episodes of apnea while sleeping.
+The patient does not require ventilatory support while sleeping.
+The patient is overweight.
+Patient has had an abortion
+Patient has a normal pregnancy
+Patient has had prior miscarriages
+Patient has a chronic medical disease
+Patient has normal blood sugars
+Patient has high Creatinine
+Patient has poor O2 sats
+Patient has normal breathing
+Patient has COPD exacerbation
+Her hematocrit is low
+Her hematocrit was within normal range
+Her vitals were unstable
+Patient has been overmedicated
+Patient has taken his medications as written
+Patient is constipated
+Patient has evidence of CAD
+Patient has no evidence of high blood pressure
+Patient has lymphoma
+His oxygen saturation was low
+His oxygen saturation was normal
+History of COPD
+the patient has migraines
+the patient denies headaches
+the patient is on sumatriptan
+Amniotic fluid was observed to be stained with meconium
+The infant has multiple risk factors for sepsis
+Pregnancy was uncomplicated
+Patient has a seizure disorder
+Patient has no symptoms
+Patient has CAD
+No recent exposure to people with illness
+Recent sick contacts in the family
+No recent travel
+the patient was found on the ground
+the patient was in her usual state of health
+the patient had an acute MI
+He received erythropoeitin to treat his anemia
+He has a normal hemoglobin
+He has an elevated creatinine
+Patient has symptoms
+Patient has no evidence of disease
+Patient has renal cancer
+The patient has chronic headaches.
+The patient does not have any headaches.
+The patient has migraines.
+The patient has a malignancy.
+The patient has no malignancy.
+The patient has a history of smoking.
+Patient has orthopedic injuries
+Patient has not hard intervention
+Patient has osteopenia
+The patient had a recent intravascular procedure.
+The patient has not had a recent procedure.
+The patient had a recent cardiac catheterization.
+The patient has had a spinal infection.
+The patient has not had a bone infection.
+The patient is a IV drug user.
+the patient was transfused
+the patient did not require transfusion
+the patient is bleeding
+She was given a diuretic and bronchodilators
+She received no inhaled medication
+She has asthma
+The patient is persistantly hyperglycemic.
+The patient maintains strict glucose control.
+The patient has diabetic neuropathy.
+The patient has expressive dysphasia.
+The patient is able to speak normally.
+The patient had a stroke.
+The patient has cellulitis.
+The patient has no signs of infection.
+The patient has osteomyelitis of the left foot.
+There are signs and symptoms associated with acute coronary syndrome
+No signs or symptoms suggestive of cardiac event
+EKG was abnormal
+Patient has diabetes
+Patient has normal blood sugar
+Patient has ketoacidosis
+Patient has cardiomyopathy
+Patient has normal ultrasound imaging of the heart
+Patient has angina
+Patient has a history of cancer
+Patient has never taken medications
+Patient had been treated for malignancy in the past
+The patient had a cesarean section.
+The patient had a vaginal delivery.
+The patient was positive for group B strep.
+She has been having some neurological symptoms
+She denies neurocognitive symptoms
+She has dementia
+WBC slightly elevated
+WBC levels are low
+Infection is present
+She received antibiotics
+She did not receive antibiotics
+She had pain and fever
+the patient is not jaundiced
+the patient is jaundiced
+the patient has abnormal liver function tests
+The patient does not have symptoms of an myocardial infarction.
+The patient is having chest pain.
+The patient is not having a myocardial infarction.
+She began feeling ill yesterday
+She has no health concerns
+She is febrile
+the patient has a history of spasms
+the patient has no neurologic history
+the patient has seizures
+The patient has heart failure
+The patient's cardiac function is normal
+The patient has a history of hypertension
+Patient has sepsis
+Patient has normal vital signs and lab work
+Patient has septic shock
+the patient has coronary artery disease
+the patient has normal coronary arteries
+the patient has triple vessel disease
+The twins had separate chorions and amnions.
+The twins share the same amnionic sac.
+The twins are originated from separate eggs.
+His anticoagulant has been stopped temporarily
+He is not on anticoagulant therapy
+He has a history of blood clots
+The patient has an autoimmune condition.
+The patient has no known malignancy.
+The patient has a history of smoking.
+Patient has an infection
+Patient has no symptoms
+Patient has URI
+Patient has PAD
+Patient has no prior intervention
+Patient has CAD
+Patient has had poor oxygenation on room air
+Patient has normal oxygenation
+Patient has COPD exacerbation
+The patient received a steroid medication and antibiotic
+The patient had no respiratory history or symptoms
+The patient has a history of COPD exacerbations
+The patient has a metastatic malignancy.
+The patient has a normal liver.
+The patient has ascites.
+patient is intubated
+patient is on room air
+patient has respiratory failure
+the patient has a history of rheumatic heart disease
+the patient has no cardiac history
+the patient has mitral stenosis
+The patient has a history of renal failure treated with transplant.
+The patient had transplant failure.
+The patient is immunocompromised.
+Patient denies dyspnea
+Patient complains of difficulty breathing
+The patient denies recent illness
+The patient has had neck surgery.
+The patient has never had surgery.
+The patient takes synthroid.
+The patient is obtunded.
+The patient is alert, aware, and oriented.
+The patient is septic.
+The patient is in labor.
+The patient is not in labor.
+It is a term pregnancy.
+History of high blood sugars
+Diagnosis of diabetes with normal eye exam and no nerve pain
+History of obesity
+Patient has low hematocrit
+Patient has a normal EF
+Patient has constant shoulder pain
+The is at high risk of bleeding.
+The patient patient is currently hypercoaguable.
+The patient is taking Coumadin.
+The patient has symptoms of pulmonary edema.
+The patient has no shortness of breath.
+The patient has congestive heart failure.
+the patient has a history of renal transplant
+the patient has normal native kidneys
+the patient has normal creatinine
+CT is unremarkable
+Subdural hematoma evident on CT
+History of head trauma
+The patient is in critical condition.
+The patient can be treated as an outpatient.
+The patient is intubated.
+The patient has a pleural effusion.
+The patient does not have a neural effusion.
+The patient has a parapneunomic effusion.
+History of stroke
+Normal neurological exam
+The patient presents with pallor
+the patient was transfused intraoperatively
+the patient did not have blood loss
+the patient underwent CABG
+The patient received blood before the transfer
+The patient had no blood loss
+The patient suffered trauma
+Patient has leukocytosis
+Patient has normal CBC
+Patient has an infection
+The patient has end stage renal disease.
+The patient has normal functioning kidneys.
+The patient has pulmonary edema.
+Patient has abnormal neurological examination
+Patient has acute cognitive impairment
+Patient has dementia
+The patient is given medication do dilate small airways.
+The patient is being given medication to constrict small airways.
+The patient is having a COPD exacerbation.
+The patient underwent a procedure.
+The patient is bleeding.
+The patient had abdominal surgery.
+there is confusion with medication reconcilliation
+the patient is taking the appropiate medications
+the patient is in heart failure
+the patient has decreased PO intake
+the patient denies nausea
+the patient has a bowel obstruction
+The patient presented to the ED
+The patient presented to his primary care physician’s office
+The patient presented with shortness of breath
+The patient had a gastric arteriovenous malformation causing the upper GI bleed.
+The patient’s bleed was caused by gastric varacies.
+The patient had an interventional radiology procedure.
+APGARS improved at 10 minutes
+APGARS were normal at 1, 5 and 10 minutes
+The infant was delivered prematurely
+the patient consumes alcohol
+the patient denies alcohol use
+the patient is cirrhotic
+His pain improved after taking an over the counter medication
+His pain worsened after taking an over the counter medication
+The patient has a history of GERD
+He received blood pressure support medication
+He remained stable after 1.9 L of IVF
+He has septic shock
+Patient has fatigue
+Patient has normal history
+Patient has cardiac failure
+the patient has cancer
+the patient has normal immune system
+there is concern for sepsis
+Patient is on insulin for diabetes
+No surgical history
+Patient is obese
+the patient had hospital acquired pneumonia
+the patient had an uncomplicated hospital stay
+the patient had MRSA
+The patient had been complaining of chest pain
+The patient had no recent chest pain
+The patient has a history of coronary artery disease
+The patient has multiple medical comorbidities.
+The patient has a normal heart.
+The patient takes antihypertensive medications.
+Patient has no complaints
+Patient has positive ROS
+Patient has negative physical exam
+Patient has liver disease
+Patient has no liver disease
+Patient has prior liver imaging
+The patient does not have symptoms of acute coronary syndrome.
+The patient has symptoms of pneumonia.
+The patient does not have acute coronary syndrome.
+the patient has aphasia
+the patient has no neurologic symptoms
+the patient had an acute stroke
+patient has chest pain
+patient denies chest pain
+patient has a pulmonary embolism
+the patient has a PFO
+the patient has a normal echocardiogram
+the patient has a stroke
+The patient had pain with defication.
+The patient has not had any rectal problems.
+The patient suffers from constipation.
+Patient has elevated LDL
+Patient has normal cholesterol
+Patient has low HDL
+The patient is acidotic.
+The patient has a normal blood pH.
+The patient has hypercarbic respiratory failure.
+Patient has multiple comorbities.
+Patient has well controlled diabetes.
+Patient is on long term antibiotics.
+The patient overdosed on cough medicine.
+The patient has never consumed cough medicine.
+The patient has substance abuse disorder.
+History of cancer
+The patient has no history of cancer
+History of celiac disease
+The patient has low blood pressure.
+The patient is hypertensive.
+The patient is septic.
+Patient has chronic abnormal glucose
+Patient has no joint pain
+Patient has abnormal blood pressure
+There was fluid in the pleural cavity.
+Imaging revealed no pleural fluid
+The patient complained of chest pain and dyspnea.
+The patient‰Ûªs hematocrit was closely monitored.
+The patient has an unknown hematocrit.
+The patient had a bleed.
+The patient has a history of arrhythmia
+No history of arrhythmia
+History of stroke
+This morning, the patient's respiratory rate was high
+The patient's vitals were within normal limits this morning
+The patient has a history of pulmonary embolism
+The patient did not receive a throbolytic.
+The patient received thrombolytics.
+The patient had a stroke.
+The patient is on an anti epileptic.
+The patient is not taking any medication.
+The patient has had recent head trauma.
+Patient has chronic medical condition
+Patient has normal EF
+Patient has leg swelling
+the patient is tachycardic
+the patient has a positive gastric lavage
+the patient has a lower GI bleed
+The patient had an echocardiogram.
+The patient has a normal heart.
+The patient coronary artery disease.
+The patient has multiple medical conditions
+No history of metabolic disease
+The patient is on Metformin
+The patient has a pulmonary problem.
+The patient has no breathing difficulty.
+The patient has a COPD exacerbation.
+The patient has an adenoma
+THe patient has no medical history
+The patient has a pituitary macroadenoma
+Patient has a seizure disorder
+Patient has normal neurological exams
+Patient has chronic kidney disease
+there was a loss of consciousness
+there was no loss of consciousness
+the patient had a seizure
+the patient has lupus
+the patient has normal renal function
+the patient has chronic pain
+The patient was admitted for right sided weakness
+The patient has no neurological symptoms.
+The patient has a stroke
+Patient has normal LV function
+Patient has mitral regurgitation
+Patient has aortic stenosis
+Labor was not induced
+Infant was delivered via c-section
+Pregnancy and delivery were unremarkable
+Patient has abnormal EKG
+Patient has normal cardiac findings
+Patient has conduction abnormality
+There were temporary drops in fetal heart rate during labor
+Delivery was via c-section
+Delivery was at full term
+The patient had head trauma.
+The patient has no signs of trauma.
+The patient has epidural hematoma.
+Patient has malignancy
+Patient has no history of surgery
+Patient has received radiation therapy
+The patient recently had a child.
+The patient did not have retained fetal material in the uterus.
+The patient has had a prior c section.
+the patient is a premature triplet
+the patient is full term
+the patient is breathing normally
+The patients pain is treated by narcotics.
+The patients pain is able to be treated by PO non narcotic pain medicine.
+The patient has significant pain.
+Denies joint effusion
+Complains of joint effusion and erythema
+History of arthritis
+The patient has a brain bleed.
+The patient has had no brain bleeds.
+The patient had brain trauma.
+The infant had difficulty breathing
+Infant was breathing normally
+The infant was grunting and had nasal flaring
+The patient was given a nitrate
+The patient was not given medications in the ED
+The patient has heart disease
+The patient was admitted for a hypertensive emergency.
+The patient had a normal blood pressure.
+The patient required diuresis.
+the patient has angina
+the patient denies chest pain
+the patient has triple vessel disease
+He is unable to eat as much as usual
+He reports no change in appetite or eating
+He also complains of nausea
+The patient complained of pain
+The patient denied pain or chest discomfort
+The patient has a history of coronary artery syndrome
+Patient has ankle swelling
+Patient has normal venous return
+Patient has CHF
+The incision site does not have findings consistent with a surgical site infection.
+The incision is draining purulent material.
+The surgical site is sterile.
+Patient has vision difficulties
+Patient has never had an operation
+Patient has back pain
+History of two deliveries
+She has a history of infertility
+All pregnancies were uncomplicated
+the patient has a history of pneumonia
+the patient has no history of pneumonia
+the patient has an abnormal chest x ray
+The patient has a brain bleed.
+The patient has a normal MRI of the brain.
+The patient had brain trauma.
+the patient was hypoglycemic
+the patient was hyperglycemic
+the patient overdosed on insulin
+The patient has multiple medical conditions
+The patient has no history of hyperglycemia
+The patient has a history of hypertension and hyperlipidemia
+Patient has PAD
+Patient has normal CXR
+Patient has CAD
+The has a pulmonary condition.
+The patient has normal lung function.
+The patient was taking propranolol.
+The patient has an abnormal connections between the arterial and venous system
+No abnormality is the vessels in the lower extremity
+History of lower extremity trauma
+patient is hypertensive and tachycardic
+patient is febrile
+patient has chest pain
+No autoimmune cause of liver disease
+There are signs and symptoms of autoimmune hepatitis
+Normal AST and ALTs
+The patient is significant arteriovascular disease.
+The patient is at low risk for a stroke.
+The patient is taking blood thinners.
+Chest x-ray showed mild abnormalities
+Chest x-ray was normal
+The patient complains of cough
+There was a family meeting about the patient.
+The patient has not had a family meeting.
+The patient is critically ill.
+The patient has an autoimmune disease.
+The patient does not have an autoimmune disease.
+The patient has mediastinal adenopathy.
+The patient has a pulmonary condition.
+The patient has a normal chest x-ray.
+The patient has a hepatohydrothorax.
+The patient has a malignancy.
+The patient has no history of malignancy.
+The patient has colon cancer.
+Twin gestation conceived by IVF
+The twins shared a placenta
+The twins were the same gender
+Patient has blood type A+
+Patient has blood type B negative
+Patient has history of transfusions
+Patient is an infant
+Patient is a male
+Patient has normal weight
+Patient has URI
+Patient has TB
+Patient has fever
+She took more medication than directed
+She took no Dilaudid
+She had an overdose of Dilaudid
+Patient was unconscious
+Patient has normal neurological examination
+Patient has had a TIA
+Patient has low blood pressure
+Patient has pericardial fluid
+Patient has chest pain
+She has no trouble breathing
+She is in respiratory distress
+She has no respiratory disease
+Intervention resulted in no significant change in AV nodal conduction
+Carotid sinus massage was effective
+The patient is hemodynamically stable
+patient has normal renal function
+patient is dehydrated
+patient has a normal diet
+Patient has abnormal lung parenchyma
+Patient has negative chest imaging
+Patient has cancer
+The patient has chronic kidney disease
+The patient’s creatinine is normal
+The patient is anemic
+the aorta is mildly tortous
+the aorta is normal
+the patient has hypertension
+The patient was stable.
+The patient’s vitals were unstable at admission
+The patient’s CBC was within normal limits
+high risk pregnancy
+pregnancy was uncomplicated
+mother is IV drug user
+Patient had aphasia
+Patient has normal speech
+Patient suffered a stroke
+Patient has been given IV medication
+Patient has normal blood pressures
+Patient has hypotension
+Patient has no CAD
+Patient has CAD
+Patient has had angina
+the patient is on antibiotics and steroids
+the patient is inpatient
+the patient has COPD and pneumonia
+His required further medical treatment
+He remained stable there for 2 days and was discharged home
+His lab work was normal at time of transfer
+the patient is hypotensive
+the patient is hypertensive
+the patient is in cardiogenic shock
+the patient was given iv fluids
+the patient was hypervolemic
+the patient was in septic shock
+patient has triple vessel coronary artery disease
+patient has normal coronary arteries
+patient will undergo CABG
+The patient had a PET scan
+The patient has no indication for a PET scan
+The patient has malignancy
+The patient has impaired liver function.
+The patient has normal kidney function.
+The patient is taking spironolactone.
+The infant received breathing support
+The infant was breathing on room air
+The infant was delivered prematurely
+The patient has an elevated creatinine.
+The patient has normally functioning kidneys.
+The patient has an arterial venous fistula.
+Received anesthetic for pain
+Received no medication for pain
+She is delivering at full term
+the patient is GI bleeding
+the patient has no history of GI bleed
+the GI bleed is lower
+Patient has prior granulomatous infection
+Patient has normal PPD
+Patient has dyspnea
+the patient has an elevated lactate
+the patient has a normal lactate
+the patient is septic
+Patient has abnormal CXR
+Patient has normal imaging
+Patient has aortic dissection
+History of UTI
+She is hypertensive
+She has syncope
+the patient has back pain
+the patient has no pain
+the patient has a history of back trauma
+No sweating
+Presents with recurrent vomiting
+Normal gastrointestinal function
+The patient is unmarried.
+The patient lives alone.
+The patient has no children.
+The patient has gout
+the patient is not on corticosteroids
+the patient is hyperglycemic
+The patient complains of shortness of breath
+The patient denies shortness of breath
+The patient has a history of COPD
+History of heart attack
+No history of cardiac events
+History of hypertension
+The patient has chronic pain.
+The patient has no adhesions.
+The patient is obese.
+She has acute renal failure
+Her renal function is normal
+She has edema
+the patient has elevated ESR
+the patient has a normal ESR
+the patient has chronic pain
+Patient has normal vital signs
+Patient has severe hypotension
+Patient has no need for ICU care
+Patient has aortic valvular disease
+Patient has normal echo
+Patient has CHF
+Patient has a chronic medical condition
+Patient has no medical history
+Patient has CAD
+History of hyperglycemia
+History of type 1 diabetes
+History of obesity
+Chronic wound on right lower extremity
+Peripheral artery disease
+History of diabetes
+The patient has an autoimmune condition.
+The patient has normal bowel.
+The patient has had a small bowel obstruction.
+patient has a history of prior appendectomy
+the patient has no surgical history
+the patient has a cholecystectomy
+The patient complains of pain
+The patient denies pain
+The patient has a small bowel obstruction
+the patient has multiple medical problems
+the patient has no past medical history
+the patient is obese
+The patient had reassuring apgars.
+The patient had concerning ap
+The patient was born at term.
+The patient has pain in the rectal area.
+The patient does not had dilated blood vessels near the anus.
+The patient has blood streaks while defecating.
+The patient has cancer
+The patient has no cancer
+The patient has a history of anemia
+He had apnea as a result of prematurity
+He had no respiratory symptoms
+He was small for gestational age
+The patient has had times of suicidal ideation.
+The patient is at low risk for suicide.
+The patient also has bipolar disorder.
+Patient has emphysema
+Patient has normal PFTs
+Patient has abnormal FEV1
+patient has spent time outside
+patient has been sedentary
+patient is dehydrated
+The patient has symptoms of a congestive heart failure exacerbation.
+The patient is asymptomatic.
+The patient has congestive heart failure.
+She was found unresponsive
+She was found alert and oriented
+She had a syncopal episode
+Patient has nausea
+Patient has no problem drinking fluids
+Patient has vomiting
+patient is hypoxic
+patient is breathing normally
+patient is intubated
+The patient has cholelithiasis.
+The patient has a normal caliber common bile duct.
+The patient has right upper quadrant pain.
+He has a history of cancer
+He tolerated Bleomycin well
+He has lymphoma
+There is inflammation in the lungs
+Bronchoscopy with biopsy was normal
+The patient has an infection
+Patient has had a stroke
+Patient has a normal neurological exam
+Patient has a hemorrhagic stroke
+History of breast cancer
+No history of breast cancer
+Family history of breast cancer
+The patient has a feeding tube
+The patient has no feeding tubes
+The patient has chronic disease
+the patient was febrile and hypotensive
+the patient had normal vital signs
+the patient had bacteremia
+the patient has a liver laceration
+the patient has a normal liver
+the patient had a motor vehicle accident
+Lungs were without wheeze, rales or rhonchi on exam
+Decreased lung sounds bilaterally
+Patient denies cough or shortness of breath
+The patient was hypoglycemic.
+The patient was not given any glucose.
+The patient initially received too much insulin.
+The patient has a neuromuscular condition.
+The patient has no tremor.
+The patient has parkinson’s disease.
+The patient was anemic.
+The patient had a normal hematocrit.
+The patient has a bleed.
+The patient recently had a kidney transplant
+The patient received a renal transplant with no complications
+The patient has a history of polycystic kidney disease
+The patient has multiple arterial stenoses.
+The patient has normal arterial vascular waveforms on Doppler ultrasound.
+The patient had a recent stroke.
+The patient has had no recent headaches
+The patient complains of temporal headache
+The patient has no history of head trauma
+The patient is given a benzodiazepine.
+The patient has not been given a sedative.
+The patient is in alcohol withdrawal.
+Patient has tried to conceive
+Patient is on no medications
+Patient has endometriosis
+patient has a positive coomb's test
+patient has a negative coomb's test
+patient is on her second pregnancy
+patient is hypotensive
+patient is hypertensive
+patient is septic
+the patient is in respiratory distress
+the patient is comfortable
+the patient has an acute heart failure exacerbation
+Complains of diplopia
+Alert and oriented, no visual hallucinations
+History of substance abuse
+His oxygen saturation was low
+His lungs appeared normal
+He has shortness of breath and cough
+Treated for infection
+Antibiotic therapy is not indicated
+MRSA infection
+Patient has an infection
+Patient has a normal chest CT
+Patient requires antibiotics
+the delivery was vaginal
+the delivery was via C section
+the pregnancy full term
+The patient is able to answer questions.
+The patient is aphasic.
+The patient is cold.
+The patient has had episodes of pancreatic swelling.
+The patient has never had an abnormal release of lipase into his blood stream.
+The patient is an alcoholic.
+He has frequent stools
+He has constipation
+He has abdominal pain
+patient has had a PE
+patient has no history of PE
+patient is anti coagulated
+The patient had some neurological symptoms
+The patient had no neurological abnormalities
+The patient has a diagnosis of epilepsy
+Pain is no associated with meals or bowel movements
+He has pain after eating
+He has appendicitis
+There are no concerning findings on the physical exam.
+The patient patient had many important and critical findings on her exam.
+The patient is healthy.
+Breathing support was attempted
+The patient successfully was given Bipap
+The patient subsequently received an endotracheal tube
+History of cancer
+No history of cancer
+History of smoking
+The patient is undergoing elective surgery.
+The patient is undergoing emergent surgery.
+The patient is getting a knee replacement.
+the patient is having an STEMI
+the patient has a normal EKG
+the patient has crushing chest pain
+Patient had polyps in the colon removed
+No history of colonic polyps
+Patient is a smoker
+The patient sought care in the emergency department
+The patient complains of no pain
+The patient has a history of abdominal surgery
+The patient has ventricular tachycardia.
+The patient has a regular rate and rhythm.
+The patient has congestive heart failure.
+Patient is on antibiotics
+Patient has no IV in his arm
+Patient has an infection
+patient has chills
+patient denies chills
+patient has a fever
+The patient is febrile.
+The patient is afebrile.
+The patient has sepsis.
+The patient had an acute myocardial infarction.
+The patient has normal coronary arteries.
+The patient has diabetes.
+Mother has an infectious process
+CBC was within normal limits
+Mother is a carrier for group B strep
+the patient has a history of CABG
+the patient has normal coronary arteries
+the patient has diabetes
+The patient has had a significant trauma.
+The patient sustained a gun shot wound.
+The patient is in a cervical collar.
+Patient has focal pain
+Patient has negative ROS
+Patient has an aneurysm
+The patient did not report a time of loss of consciousness.
+The patient reported a time of loss of consciousness.
+The patient did not have a loss of consciousness.
+The patient has normal birth weight.
+The patient has low birth weight.
+The patient has normal height.
+Lactate levels decreased
+Lactate levels increased
+The patient had a recent infection
+The patient’s immune cells are elevated.
+The patient is hypothermic.
+The patient is bacteremic.
+The patient is on immunosuppression.
+The patient does not have a history of cancer.
+The patient has a limited functional status.
+Patient has started vasodilators
+Patient has no symptoms
+Patient has angina
+Barium swallow revealed small bowel obstruction
+Barium swallow revealed no abnormalities
+The patient complains of nausea, vomiting and abdominal pain
+Patient takes only one medication
+Patient has multiple medical conditions
+Patient has a negative ROS
+Unintentional loss of urine
+Denies bladder leakage
+History of vaginal childbirth
+The patient is on immunosuppressive medications.
+The patient has never had surgery.
+The patient had a heart transplant.
+The patient has bilateral carotid artery stenosis.
+The patient has normal carotid arteries.
+The patient has a CVA.
+the patient has epistaxis
+the patient denies bleeding
+the patient has thrombocytopenia
+The mother was given magnesium sulfate during pregnancy
+The mother received no medication
+Mother has eclampsia
+The patient has dilated arteries.
+The patient has normal sized arteries.
+The patient has hypertension.
+the patient has neuropathy of the foot
+the patient has a normal neurologic exam
+the patient is diabetic
+History of multiple medical conditions
+Hearing is intact
+The patient is insulin dependent
+Patient has abnormal exam
+Patient has normal brain MRI imaging
+Patient has confusion
+The patient was recently born.
+The patient was not given ocular antibiotics.
+The patient got the expected post delivery care.
+The patient has a malignancy.
+The patient does not have cancer.
+The patient has neurological defecits.
+The patient has congestive heart failure.
+The patient has a normal ejection fraction.
+The patient has coronary artery disease.
+The patient had an intravascular procedure.
+The patient has
+The patient had hypertrophic obstructive cardiomyopathy.
+Stool culture was not performed
+Stool culture was sent prior to delivery
+The patient has a bacterial infection
+The patient has signs of infection.
+The patient has a normal cbc.
+The patient had a cholecystectomy.
+The patient has dyspnea
+Pulmonary exam is normal
+The patient is on inhaled corticosteroids
+Patient has been vomiting
+Patient has no pain
+Patient has nausea
+She did not start the blood thinner
+She has normal gastrointestinal function
+She has a peptic ulcer
+The patient is tachycardic
+The patient’s vitals and lab work are within normal limits
+The patient is receiving chemotherapy
+Patient has AKI
+Patient has normal Cr
+Patient has CKD
+patient has history of TIA
+patient has no neurologic history
+patient has a normal brain MRI
+He is status-post biopsy
+He has no indication for biopsy
+His is being evaluated for cancer
+the patient has back pain
+the patient denies back pain
+the patient has a compression fracture
+The patient has fluid in the abdomen.
+The patient has no fluid in the peritoneal space.
+The patient has an obstructing pancreatin lesion.
+The patient has a history of PE.
+The patient has no history of PE.
+The patient is anti-coagulated.
+He has cough
+He has a dry cough with no sputum
+He has bronchitis
+Patient has elevated PT
+Patient has normal coagulation profile
+Patient has history of atrial fibrillation
+Patient has upper GI symptoms
+Patient has colitis
+Patient has enteritis
+Patient has not provided a ROS
+Patient has provided a ROS
+Patient has AF
+The patient does not have symptoms of an cardiac arrhythmia.
+The patient
+the patient does not have a cardiac arrhythmia.
+Patient has low Apgars
+Patient has normal exam
+Patient is a female
+The patient had an infected wound.
+The patient has no history of infection.
+The patient had a chronically infected wound.
+The patient has an appropriate blood pressure.
+The patient is hypotensive.
+The patient had a recent surgery.
+the patient has a history of colon cancer
+the patient has no cancer history
+the patient has metastastic disease
+He has hyperlipidemia
+He is on no medication
+He has a history of obesity
+the patient has coronary artery disease
+the patient has normal coronary arteries
+the patient had an STEMI
+Patient has stable hematocrit
+Patient has extensive hemorrhage
+Patient has no internal bleeding
+patient is immunocompromised
+patient has normal immune system
+patient has AIDS
+Patient has findings warranting biopsy on imaging
+Patient has negative CT abdomen
+Patient has endometrial cancer
+The patient was unstable
+Pulseless electrical activity at 7:05
+The patient has a history of heart disease
+the patient has a history of acute renal failure
+the acute renal failure did not resolve
+the patient was dehydrated
+She was functioning well after tube was removed
+She remained intubated
+She was in a coma
+The patient requires a high level of care.
+The patient is on the regular hospital ward.
+The patient is not hypotensive.
+The patient has a cardiac arrhythmia.
+The patient has a regular heart rate.
+The patient has atrial fibrillation.
+Her left leg appears larger than normal
+Both her lower legs appear normal and unchanged
+She has a history of blood clots in the leg
+The patient lost consciousness.
+The patient has a normal mental status.
+The patient is hypotensive.
+the patient has kidney disease
+the patient has normal kidney function
+the patient is dehydrated
+the patient has a non healing ulcer
+the patient has no evidence of peripheral vascular disease
+the patient has osteomyelitis
+Patient has CKD
+Patient has normal Cr
+Patient has AKI
+Patient had elevated INR
+Patient has NSR
+Patient has history of stroke
+Cardiac disease
+Normal cardiac function
+History of hypertension and obesity
+Tested negative for syphilis
+Tested positive for syphilis
+No history of sexually transmitted infections
+The patient has pneumonia.
+The patient does not have pneumonia.
+The patient has a bacterial pneumonia.
+Patient has evidence of URI
+Patient has normal PFTs
+Patient has COPD
+The patient had a right femoral endarterectomy.
+The patient has no significant atherosclerotic disease.
+The patient is diabetic.
+Patient has a normal neurological exam
+Patient has a right facial palsy
+Patient has normal brain MRI
+The patient has stage IV lung cancer.
+The patient has no metastatic disease.
+The patient was a smoker.
+The patient has cirrhosis.
+The patient does not have fluid in the abdomen.
+The patient would benefit from a liver transplant.
+Patient has malignancy
+Patient has no prior radiation
+Patient has mets to spine
+The patient had an abnormal stress test.
+The patient has a normal stress test.
+The patient has cardiac ischemia.
+She felt faint
+She felt normal
+She was volume depleted
+The patient was hypertensive
+The patient was hypotensive
+The patient complained of headache
+History of complex regional pain syndrome
+No history of falls or trauma
+History of pain and swelling in the extremities
+He received an antibiotic and pain medication
+He has no infection
+He has a history of diabetes
+The patient noticed a change in her right arm
+The patient denies weakness in her arms or legs
+The patient has a history of arthritis
+Hematocrit is low
+Hematocrit is within normal limits
+The patient complains of fatigue
+She is limiting her sodium intake
+She is on a regular diet
+She is on a low fat diet
+Patient has stopped eating and drinking as much as previous
+Patient has normal intake
+Patient has dysphagia
+Patient is a newborn
+Patient has abnormal Apgar’s
+Patient is a female
+the patient has an elevated PSA
+the patient has a normal PSA
+the patient has incontinence
+the patient is an alcoholic
+the patient has no history of alcohol abuse
+the patient has thiamine deficiency
+the patient has chest pain
+the patient denies chest pain
+the patient has an STEMI
+History of pelvic fracture
+No history of fractures
+She sustained a fall 3 weeks ago
+The patient has had kidney damage.
+The patient has always had normal functioning kidneys.
+The patient had a nephrotoxic medication.
+Infant's cardiac function will be evaluated
+Infant was discharged home with no complications
+Infant was delivered prematurely
+Patient has no cardiac symptoms
+Patient has angina
+Patient has no atherosclerosis
+the patient has acute renal failure
+the patient has normal renal function
+the patient has medication induced renal failure
+No gastroenteritis
+Presents with gastroenteritis
+Gastrointestinal function is normal
+She saw blood draining from her ileostomy
+She denied bleeding from her ileostomy
+History of inflammatory bowel disease
+Patient has intracranial hemorrhage
+Patient has negative MRI brain
+Patient has stroke
+The patient has a history of neurologic deficit.
+The patient has no neurologic complaints.
+The patient has a prior stroke.
+patient has aphasia
+patient had normal neurologic function
+patient had a stroke
+He had an infection leading to sepsis
+His vitals were normal and he had no recent infection
+He had sepsis from an abdominal infection
+the patient was undergoing cardiac catherization
+the patient has a normal EKG
+the patient had a stemi
+History of hematologic disorder
+No history of hematologic abnormality
+History of polycythemia vera
+The patient gets short of breath with exertion.
+The patient does not get short of breath with activity.
+The patient has congestive heart failure.
+He had a assessment of his swallowing
+He has no indication for a swallowing evaluation
+He has a history of aspiration
+Patient has a chronic medical condition
+Patient has normal serum glucose
+Patient has abnormal A1c
+She complains of flu-like symptoms
+She is afebrile
+She had recent sick contacts
+The patient is at high risk for suicide.
+The patient does not have a history of substance abuse.
+The patient is taking an antihypertensive.
+The patient has symptoms concerning for acute coronary syndrome.
+The patient has normal lungs.
+The patient has acute coronary syndrome.
+Baby girl was delivered pre-term
+Baby girl was delivered at full term
+Baby girl had intrauterine growth restriction
+The patient had an adverse reaction to Keflex
+No history of anemia
+History of panic attacks
+The patient has difficulty breathing
+The patient denies any respiratory symptoms
+The patient has pneumonia
+The patient received a transfusion in the hospital
+The patient’s blood counts and labs were normal
+The patient complained of pain
+the patient has crampy pain
+the patient denies pain
+the patient has abdominal pain
+Patient has a history of aortic insufficiency
+Patient has no past surgical history
+Patient has symptoms
+Imaging revealed hematoma at the cervical spine
+MRI was unremarkable
+She recently had a spinal cord injury
+Tonsils were removed
+No surgical history
+History of recurrent acute tonsillitis
+He was given a diuretic
+He was given no diuretics
+He has a history of heart failure
+Patient has colon neoplasm
+Patient has normal CT chest imaging
+Patient has metastatic disease to the brain
+the patient had a bladder tumor
+the patient has no surgical history
+the patient had transitional cell cancer
+Patient has just been born
+Patient is severely underweight
+Patient has is normal size and weight
+Patient has significant PSH
+Patient has no symptoms
+Patient has colon cancer
+The patient has multiple chronic conditions.
+The patient has normal blood glucose.
+The patient has metabolic syndrome.
+The patient has a catheter in the pulmonary artery.
+The patient has low pulmonary arterial pressure.
+The patient has pulmonary artery hypertension.
+the patient has hematochezia
+the patient has hematemesis
+the patient has a lower gi bleed
+She has mild chronic airway disease
+She has normal respiratory function
+She has shortness of breath
+Patient has an ETT in place
+Patient has normal MMSE
+Patient is on a ventilator
+the patient was discharged to rehab
+the patient was discharged home
+the patient had a stroke
+Patient is minimally responsible
+Patient has normal MMSE
+Patient has sepsis
+the patient has COPD
+the patient is breathing on room air
+the patient had no pneumonia on chest x ray
+The patient was pregnant.
+The patient had a cesarean section.
+The patient had an epidural.
+Patient has normal cardiac exam
+Patient has bradycardia
+Patient has normal echo
+History of carpal tunnel syndrome
+No history of carpal tunnel syndrome
+History of obesity
+The patient has urosepsis.
+The patient does not have an infection.
+The patient has a chronic indwelling foley.
+Patient has multiple chronic conditions
+Patient requires no medications
+Patient has EKG changes
+patient has abnormal lfts
+patient has normal lfts
+patient has shock liver
+there is no evidence of dissection
+there is evidence of dissection
+the patient had a CTA
+The patient has symptoms to warrant evaluation of his coronary arteries.
+The patient no symptoms of coronary artery disease or heart failure.
+The patient has coronary artery disease.
+the patient is on antibiotics
+the patient is not on antibiotics
+the patient has cellulitis
+the patient was resuscitated
+the patient is hypertensive
+the patient has sepsis
+the patient was cardioverted
+the patient has no history or arrhythmia.
+the patient has paroxysmal a fib
+Patient has no evidence of GI cancer
+Patient still needs age appropriate colon cancer screening
+Patient has no pain
+Patient has had a CT scan performed
+Patient has normal imaging findings
+Patient has a brain mass
+The patient has a positive PPD.
+The patient has active pulmonary tuberculosis.
+The patient is immunocompetent.
+The patient received immunoglobin therapy
+The patient has no history of immunoglobin therapy
+The patient has IgG deficiency
+patient has abdominal aortic aneurysm
+patient has normal abdominal aorta
+aneurysm is infrarenal
+History of stroke
+No history of cerebrovascular accident
+History of atrial fibrillation
+The patient had a fall.
+The patient has not had a fall.
+The patient has balance issues.
+He has chest pain
+the patient denies chest pain
+He has an acute MI
+There is concern that the patient has an occult hemorrhage.
+The patient is hypertensive.
+The patient has a GI bleed.
+BNP was above normal
+BNP levels are normal
+History of heart failure
+Heroin is an opiate.
+Heroin does not cause withdrawal symptoms.
+Patients who abuse heroin get started on opiate pain killers.
+patient has coronary artery disease
+patient has normal coronary arteries
+patient has heart failure
+Patient has cardiac disease
+Patient has negative PSH
+Patient has PAD
+Patient has positive imaging findings
+Patient has no complaints
+Patient has positive Murphy’s sign
+The patient was sent for a transesophageal echocardiogram
+The patient has no cardiac abnormality of symptoms, no indication for echo.
+The patient has a cardiac murmur
+The patient has symptoms of gastroenteritis.
+The patient does not have gastroenteritis.
+The patient has gastroenteritis.
+The patient has a malignancy.
+The patient has no history of cancer.
+The patient has a pneumonia.
+patient has chest pain at rest
+patient denies chest pain
+patient has an acute MI
+The patient is on dialysis.
+The patient has normal kidney function.
+The patient has diabetes.
+patient is on dialysis
+patient has normal renal function
+patient has diabetes
+History of multiple urinary tract infections
+No history of urinary tract infections
+History of vaginal delivery
+history was obtained from the family
+the patient provided the history
+the patient has altered mental status
+The patient has a history of heart disease
+The patient has no heart disease
+The patient has a history of myocardial infarction
+The patient is short of breath.
+The patient has normal breathing.
+The patient has COPD.
