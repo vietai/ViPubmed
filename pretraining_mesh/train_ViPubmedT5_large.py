@@ -28,12 +28,39 @@ TPU_ADDRESS = f'grpc://{TPU_ADDRESS}:8470'
 MAX_LENGTH = args.length
 
 ON_CLOUD = True
-tf.config.experimental_connect_to_host(TPU_ADDRESS)
+
+if ON_CLOUD:
+  print("Setting up GCS access...")
+  TPU_TOPOLOGY = "v3-8"
+  # auth.authenticate_user()
+  tf.config.experimental_connect_to_host(TPU_ADDRESS)
+  # tensorflow_gcs_config.configure_gcs_from_colab_auth()
 
 tf.disable_v2_behavior()
 
 # Improve logging.
 from contextlib import contextmanager
+import logging as py_logging
+
+if ON_CLOUD:
+  tf.get_logger().propagate = False
+  py_logging.root.setLevel('INFO')
+
+@contextmanager
+def tf_verbosity_level(level):
+  og_level = tf.logging.get_verbosity()
+  tf.logging.set_verbosity(level)
+  yield
+  tf.logging.set_verbosity(og_level)
+
+
+
+tf.disable_v2_behavior()
+
+# Improve logging.
+from contextlib import contextmanager
+import logging as py_logging
+
 
 @contextmanager
 def tf_verbosity_level(level):
@@ -43,9 +70,8 @@ def tf_verbosity_level(level):
   tf.logging.set_verbosity(og_level)
 
 gin.parse_config_file(
-        '../configs/t5/base_operative_config.gin'
+        '../configs/t5/large_operative_config.gin'
     )
-
 
 def dumping_dataset(split, shuffle_files = False):
     del shuffle_files
@@ -102,7 +128,6 @@ model_parallelism, train_batch_size, keep_checkpoint_max = {
     '11B': (8, 16, 1),
 }[MODEL_SIZE]
 
-
 model_dir = f'gs://translationv2/models/ViPubmedT5_{MAX_LENGTH}_{MODEL_SIZE}'
 
 model = models.MtfModel(
@@ -118,4 +143,4 @@ model = models.MtfModel(
   iterations_per_loop = 100,
 )
 
-model.train(mixture_or_task_name = 'all', steps = 2000000)
+model.train(mixture_or_task_name = 'all', steps = 1500000)
