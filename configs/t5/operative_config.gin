@@ -339,6 +339,3 @@ VarianceScalingInitializer.scale = 1.0
 # ==============================================================================
 VocabEmbedding.scale_variable_like_classifier_weights = False
 
-# Parameters for Vocabulary:
-# ==============================================================================
-Vocabulary.extra_ids = 0
