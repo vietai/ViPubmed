@@ -138,9 +138,9 @@ model = models.MtfModel(
   batch_size = train_batch_size,
   sequence_length = {'inputs': MAX_LENGTH, 'targets': MAX_LENGTH},
   learning_rate_schedule = 0.001,
-  save_checkpoints_steps = 2000,
+  save_checkpoints_steps = 10000,
   keep_checkpoint_max = 5,
   iterations_per_loop = 100,
 )
 
-model.train(mixture_or_task_name = 'all_enviT5', steps = 1000000)
+model.train(mixture_or_task_name = 'all_enviT5', steps = 1500000)
