@@ -2,3 +2,4 @@ pubmed_parser
 t5
 mesh-tensorflow==0.1.19
 tensorflow-text==2.2.1
+rouge-score==0.0.4
