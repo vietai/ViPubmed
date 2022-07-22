@@ -124,9 +124,6 @@ encoder/make_layer_stack.layers = \
      @mesh_tensorflow.transformer.transformer_layers.DenseReluDense]
 encoder/make_layer_stack.num_layers = %num_layers
 
-# Parameters for maybe_print_dataset:
-# ==============================================================================
-maybe_print_dataset.should_print = False
 
 # Parameters for mesh_train_dataset_fn:
 # ==============================================================================
