@@ -65,7 +65,7 @@ def dumping_dataset(split, shuffle_files = False):
 
 MODEL_SIZE = 'large'
 
-vocab = f"gs://vietai_public/viT5/viT5_{MODEL_SIZE}_1024/spiece.model"
+vocab = f"gs://vietai_public/viT5/viT5_large_1024/wiki_vietnamese_vocab.model"
 t5.data.TaskRegistry.remove('dumping_dataset')
 t5.data.TaskRegistry.add(
     'dumping_dataset',
