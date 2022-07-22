@@ -104,7 +104,6 @@ model_parallelism, train_batch_size, keep_checkpoint_max = {
 
 
 model_dir = f'gs://translationv2/models/ViPubmedT5_{MAX_LENGTH}_{MODEL_SIZE}'
-pretrained_model_dir = f'gs://vietai_public/viT5/viT5_{MODEL_SIZE}_1024'
 
 model = models.MtfModel(
   model_dir = model_dir,
@@ -119,4 +118,4 @@ model = models.MtfModel(
   iterations_per_loop = 100,
 )
 
-model.train(mixture_or_task_name = 'all', steps = 2000000, pretrained_model_dir=pretrained_model_dir)
+model.train(mixture_or_task_name = 'all', steps = 2000000)
