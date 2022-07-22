@@ -13,10 +13,11 @@ import t5
 import gin
 import argparse
 from random import shuffle
+from data import files_name
 
 print(tensorflow.__version__)
 
-parser = argparse.ArgumentParser(description='Pretraining ViPubmedT5')
+parser = argparse.ArgumentParser(description='Finetunning ViT5')
 parser.add_argument('-tpu', dest='tpu', type=str, help='tpu address', default='0.0.0.0')
 parser.add_argument('-length', dest='length', type=int, help='sequence length', default=512)
 args = parser.parse_args()
@@ -28,10 +29,39 @@ TPU_ADDRESS = f'grpc://{TPU_ADDRESS}:8470'
 MAX_LENGTH = args.length
 
 ON_CLOUD = True
-tf.config.experimental_connect_to_host(TPU_ADDRESS)
+
+if ON_CLOUD:
+  print("Setting up GCS access...")
+  TPU_TOPOLOGY = "v3-8"
+  # auth.authenticate_user()
+  tf.config.experimental_connect_to_host(TPU_ADDRESS)
+  # tensorflow_gcs_config.configure_gcs_from_colab_auth()
+
+tf.disable_v2_behavior()
 
 # Improve logging.
 from contextlib import contextmanager
+import logging as py_logging
+
+if ON_CLOUD:
+  tf.get_logger().propagate = False
+  py_logging.root.setLevel('INFO')
+
+@contextmanager
+def tf_verbosity_level(level):
+  og_level = tf.logging.get_verbosity()
+  tf.logging.set_verbosity(level)
+  yield
+  tf.logging.set_verbosity(og_level)
+
+
+
+tf.disable_v2_behavior()
+
+# Improve logging.
+from contextlib import contextmanager
+import logging as py_logging
+
 
 @contextmanager
 def tf_verbosity_level(level):
@@ -44,17 +74,16 @@ gin.parse_config_file(
         '../configs/t5/base_operative_config.gin'
     )
 
-
 def dumping_dataset(split, shuffle_files = False):
     del shuffle_files
-    files_name_cc100 = [f'gs://translationv2/data/cc100_envi_{MAX_LENGTH}_tags/train_envi_{i}.txt' for i in range(0,310)]
+    files_name = [x for x in tf.io.gfile.glob('gs://translationv2/data/vi_pubmed_512/*txt')]
 
-    shuffle(files_name_cc100)
+    shuffle(files_name)
 
-    print(files_name_cc100[0])
+    print(files_name[0])
 
     ds = tf.data.TextLineDataset(
-       files_name_cc100
+       files_name
     )
     ds = ds.map(lambda *ex: dict(zip(['title', 'text'], ['None',ex[0]])))
     ds = ds.shuffle(buffer_size=1000000)
@@ -80,9 +109,9 @@ t5.data.TaskRegistry.add(
 
 
 
-t5.data.MixtureRegistry.remove('all')
+t5.data.MixtureRegistry.remove('all_enviT5')
 t5.data.MixtureRegistry.add(
-    'all',
+    'all_enviT5',
     [
         'dumping_dataset',
     ],
@@ -100,7 +129,6 @@ model_parallelism, train_batch_size, keep_checkpoint_max = {
     '11B': (8, 16, 1),
 }[MODEL_SIZE]
 
-
 model_dir = f'gs://translationv2/models/ViPubmedT5_{MAX_LENGTH}_{MODEL_SIZE}'
 
 model = models.MtfModel(
@@ -111,9 +139,9 @@ model = models.MtfModel(
   batch_size = train_batch_size,
   sequence_length = {'inputs': MAX_LENGTH, 'targets': MAX_LENGTH},
   learning_rate_schedule = 0.001,
-  save_checkpoints_steps = 10000,
+  save_checkpoints_steps = 2000,
   keep_checkpoint_max = 5,
   iterations_per_loop = 100,
 )
 
-model.train(mixture_or_task_name = 'all', steps = 1500000)
+model.train(mixture_or_task_name = 'all_enviT5', steps = 1000000)
