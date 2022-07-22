@@ -47,14 +47,14 @@ gin.parse_config_file(
 
 def dumping_dataset(split, shuffle_files = False):
     del shuffle_files
-    files_name = [x for x in tf.io.gfile.glob('gs://translationv2/data/vi_pubmed_512/*txt')]
+    files_name_cc100 = [f'gs://translationv2/data/cc100_envi_{MAX_LENGTH}_tags/train_envi_{i}.txt' for i in range(0,310)]
 
-    shuffle(files_name)
+    shuffle(files_name_cc100)
 
-    print(files_name[0])
+    print(files_name_cc100[0])
 
     ds = tf.data.TextLineDataset(
-       files_name
+       files_name_cc100
     )
     ds = ds.map(lambda *ex: dict(zip(['title', 'text'], ['None',ex[0]])))
     ds = ds.shuffle(buffer_size=1000000)
