@@ -70,7 +70,7 @@ def tf_verbosity_level(level):
   tf.logging.set_verbosity(og_level)
 
 gin.parse_config_file(
-        '../configs/t5/base_operative_config.gin'
+        'gs://translationv2/models/ViPubmedT5_512_base/operative_config.gin'
     )
 
 def dumping_dataset(split, shuffle_files = False):
@@ -108,9 +108,9 @@ t5.data.TaskRegistry.add(
 
 
 
-t5.data.MixtureRegistry.remove('all_enviT5')
+t5.data.MixtureRegistry.remove('all')
 t5.data.MixtureRegistry.add(
-    'all_enviT5',
+    'all',
     [
         'dumping_dataset',
     ],
@@ -143,4 +143,4 @@ model = models.MtfModel(
   iterations_per_loop = 100,
 )
 
-model.train(mixture_or_task_name = 'all_enviT5', steps = 1500000)
+model.train(mixture_or_task_name = 'all', steps = 1500000)
