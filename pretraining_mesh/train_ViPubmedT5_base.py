@@ -70,7 +70,7 @@ def tf_verbosity_level(level):
   tf.logging.set_verbosity(og_level)
 
 gin.parse_config_file(
-        'gs://translationv2/models/ViPubmedT5_512_base/operative_config.gin'
+        '../configs/t5/operative_config.gin'
     )
 
 def dumping_dataset(split, shuffle_files = False):
