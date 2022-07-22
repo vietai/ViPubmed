@@ -13,11 +13,10 @@ import t5
 import gin
 import argparse
 from random import shuffle
-from data import files_name
 
 print(tensorflow.__version__)
 
-parser = argparse.ArgumentParser(description='Finetunning ViT5')
+parser = argparse.ArgumentParser(description='Pretraining ViPubmedT5')
 parser.add_argument('-tpu', dest='tpu', type=str, help='tpu address', default='0.0.0.0')
 parser.add_argument('-length', dest='length', type=int, help='sequence length', default=512)
 args = parser.parse_args()
