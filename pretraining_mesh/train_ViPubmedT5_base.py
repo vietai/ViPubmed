@@ -13,7 +13,6 @@ import t5
 import gin
 import argparse
 from random import shuffle
-from data import files_name
 
 print(tensorflow.__version__)
 
