@@ -66,7 +66,7 @@ def dumping_dataset(split, shuffle_files = False):
     if split == 'train':
       ds = tf.data.TextLineDataset(
             [
-            f'../data/FAQ_summarization/train.tsv',
+            f'gs://translationv2/data/FAQ_summarization/train.tsv',
             ]
           )
     else:
