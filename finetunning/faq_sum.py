@@ -144,7 +144,7 @@ model = MtfModel(
 FINETUNE_STEPS = args.steps
 
 model.finetune(
-    mixture_or_task_name="ner_all",
+    mixture_or_task_name="all",
     pretrained_model_dir=PRETRAINED_DIR,
     finetune_steps=FINETUNE_STEPS
 )
