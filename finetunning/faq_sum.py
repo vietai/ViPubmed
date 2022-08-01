@@ -156,7 +156,7 @@ print(checkpoints)
 file_name = 'test' # or val
 
 with open(f'../data/FAQ_summarization/{file_name}.tsv') as test_file:
-    with open('../data/FAQ_summarization/predict_input.txt', 'w') as out_file:
+    with open('predict_input.txt', 'w') as out_file:
         for line in test_file:
             out_file.write(f'{task}: {line}')
 
