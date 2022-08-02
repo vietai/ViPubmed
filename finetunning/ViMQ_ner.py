@@ -1,4 +1,3 @@
-from sympy import arg
 import tensorflow
 import functools
 import warnings
