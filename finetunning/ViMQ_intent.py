@@ -66,7 +66,7 @@ def dumping_dataset(split, shuffle_files = False):
     if split == 'train':
       ds = tf.data.TextLineDataset(
             [
-            f'gs://vien-translation/data/ViMQ/train_intent.tsv',
+            f'gs://vien-translation/data/ViMQ/train_intent_syllable.tsv',
             ]
           )
     else:
@@ -155,7 +155,7 @@ print(checkpoints)
 
 file_name = 'test' # or dev
 
-with open(f'../data/ViMQ/{file_name}_intent.tsv') as test_file:
+with open(f'../data/ViMQ/{file_name}_intent_syllable.tsv') as test_file:
     with open('predict_input.txt', 'w') as out_file:
         for line in test_file:
             out_file.write(f'{task}: {line}')
