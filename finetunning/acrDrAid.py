@@ -78,6 +78,7 @@ def dumping_dataset(split, shuffle_files = False):
         functools.partial(tf.io.decode_csv, record_defaults=["", ""],
                           field_delim="\t", use_quote_delim=False),
         num_parallel_calls=tf.data.experimental.AUTOTUNE)
+    ds = ds.shuffle()
     ds = ds.map(lambda *ex: dict(zip(["input", "target"], ex)))
     return ds
 
