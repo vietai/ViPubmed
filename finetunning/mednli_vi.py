@@ -17,6 +17,8 @@ parser.add_argument('-steps', dest='steps', type=int, help='finetune steps', def
 parser.add_argument('-model_size', dest='model_size', type=str, help='Model Size', default='base')
 parser.add_argument('-pretraining_path', dest='pretraining_path', type=str, help='Pretraining Path', required=True)
 parser.add_argument('-output_path', dest='output_path', type=str, help='Output Path', required=True)
+parser.add_argument('-refined', dest='refined', action='store_true', default=False)
+
 
 args = parser.parse_args()
 
@@ -25,7 +27,7 @@ TPU_ADDRESS = args.tpu
 TPU_ADDRESS = f'grpc://{TPU_ADDRESS}:8470'
 
 MODEL_SIZE = args.model_size
-
+refined = args.refined
 
 print(f"TPU Address {TPU_ADDRESS}")
 print(f"FINE TUNE STEPS {args.steps}")
@@ -65,9 +67,11 @@ vocab = f"{BASE_DIR}/viT5_{MODEL_SIZE}_1024/spiece.model"
 def dumping_dataset(split, shuffle_files = False):
     del shuffle_files
     if split == 'train':
+
+      train_file_name = 'train_vi.tsv' if not refined else 'train_vi_refined.tsv'
       ds = tf.data.TextLineDataset(
             [
-            f'gs://vien-translation/data/mednli_vi/train_vi.tsv',
+            f'gs://vien-translation/data/mednli_vi/{train_file_name}',
             ]
           )
     else:
@@ -88,9 +92,7 @@ def faq_preprocessor(ds):
   def to_inputs_and_targets(ex):
     """Map {"inputs": ..., "targets": ...}->{"inputs": ner..., "targets": ...}."""
     return {
-        "inputs":
-            tf.strings.join(
-                [f"{task}: ", ex["input"]]),
+        "inputs": ex["input"],
         "targets": ex["target"]
     }
   return ds.map(to_inputs_and_targets, 
@@ -155,15 +157,15 @@ checkpoints = [int(x.replace('.index', '').split('-')[-1]) for x in tf.io.gfile.
 print(checkpoints)
 
 
-file_name = 'test' # or dev
+file_name = 'test_vi' if not refined else 'test_vi_refined' # or dev
 
-os.system(f'gsutil cp gs://vien-translation/data/mednli_vi/{file_name}_vi.tsv .')
+os.system(f'gsutil cp gs://vien-translation/data/mednli_vi/{file_name}.tsv .')
 
-with open(f'{file_name}_vi.tsv') as test_file:
+with open(f'{file_name}.tsv') as test_file:
     with open('predict_input.txt', 'w') as out_file:
         for line in test_file:
             line = line.strip().split('\t')[0]
-            out_file.write(f'{task}: {line}\n')
+            out_file.write(f'{line}\n')
 
 
 for checkpoint in checkpoints:
