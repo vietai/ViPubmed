@@ -157,7 +157,7 @@ print(checkpoints)
 
 file_name = 'test' # or dev
 
-os.system(f'gsutil cp gs://vien-translation/data/mednli_vi/{file_name}_vi.tsv')
+os.system(f'gsutil cp gs://vien-translation/data/mednli_vi/{file_name}_vi.tsv .')
 
 with open(f'{file_name}_vi.tsv') as test_file:
     with open('predict_input.txt', 'w') as out_file:
