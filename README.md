@@ -3,7 +3,7 @@
 ## Introduction
 The field of biomedical research heavily relies on data and benchmarks to advance our understanding of various health issues. However, such data and benchmarks are often limited in low-resource languages, including Vietnamese. To address this issue, we present a state-of-the-art English-Vietnamese translation model to translate large-scale biomedical data. This results in the creation of ViPubmedT5, a pretrained Encoder-Decoder Transformer model trained on 20 million translated biomedical abstracts from the PubMed corpus. The model achieves impressive results on biomedical summarization and acronym disambiguation benchmarks. Additionally, we also introduce ViMedNLI, a new NLP task in Vietnamese, translated from MedNLI and refined by human experts.
 
-Refer to our [paper](https://arxiv.org/pdf/2210.05598.pdf) for more details
+Refer to our [paper](https://arxiv.org/pdf/2210.05598.pdf) for more details.
 
 
 ## Results
@@ -21,7 +21,7 @@ To eval ViPubmedT5 model on the ... dataset
 ```
 
 ### Released Datasets
-Our released MedNLI and ViPubMed can be found here 
+Our released MedNLI and ViPubMed can be found here. 
 
 ## How to Cite
 ```
