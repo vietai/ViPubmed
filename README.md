@@ -7,9 +7,9 @@ Refer to our [paper](https://arxiv.org/pdf/2210.05598.pdf) for more details
 
 
 ## Results
-![image](ViPubmed/result1.png)
+![image](result1.png)
 We benchmarked our ViPubmedT5 on three different tasks: FAQSum, acrDrAid and our brand-new dataset ViMedNLI.
-![image](ViPubmed/result2.png)
+![image](result2.png)
 
 ## Code Usage
 To train ViPubmedT5 model on the ... dataset
