@@ -42,7 +42,7 @@ models.EncoderDecoderModel:
 # ------------------- Network specification ------------------------------------
 network.Transformer.config = @network.T5Config()
 network.T5Config:
-  vocab_size = 32128  # vocab size rounded to a multiple of 128 for TPU efficiency
+  vocab_size = 36096  # vocab size rounded to a multiple of 128 for TPU efficiency
   dtype = 'bfloat16'
   emb_dim = 768
   num_heads = 12
