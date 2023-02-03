@@ -7,17 +7,17 @@ import metrics
 import os
 
 TaskRegistry = seqio.TaskRegistry
+
+DEFAULT_ViT5_SPM_PATH = "gs://vietai_public/viT5/viT5_base_1024/spiece.model"
 DEFAULT_OUTPUT_FEATURES = {
     "inputs": seqio.Feature(
-        vocabulary=t5.data.get_default_vocabulary(), add_eos=True,
+        vocabulary=seqio.SentencePieceVocabulary(DEFAULT_MT5_SPM_PATH), add_eos=True,
         required=False),
     "targets": seqio.Feature(
-        vocabulary=t5.data.get_default_vocabulary(), add_eos=True)
+        vocabulary=seqio.SentencePieceVocabulary(DEFAULT_MT5_SPM_PATH), add_eos=True)
 }
 
-
 DEFAULT_MT5_SPM_PATH = "gs://t5-data/vocabs/mc4.250000.100extra/sentencepiece.model"  # GCS
-DEFAULT_EXTRA_IDS = 100
 MT5_OUTPUT_FEATURES = {
     "inputs": seqio.Feature(
         vocabulary=seqio.SentencePieceVocabulary(DEFAULT_MT5_SPM_PATH), add_eos=True,
