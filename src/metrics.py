@@ -8,6 +8,7 @@ def map_name_to_metric_function(name):
   dict_ = {
     "rouge": rouge,
     "macro_f1": macro_f1,
+    "accuracy": accuracy,
   }
   return dict_[name]
 
