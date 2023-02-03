@@ -23,7 +23,7 @@ def accuracy(targets, predictions):
   return {"accuracy": 100*sklearn.metrics.accuracy_score(targets, predictions)}
 
 def macro_f1(targets, predictions):
-  return {f"f1_{average}": 100*sklearn.metrics.f1_score(targets, predictions, average="macro")}
+  return {f"f1_macro": 100*sklearn.metrics.f1_score(targets, predictions, average="macro")}
 
 
 
