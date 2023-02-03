@@ -7,6 +7,7 @@ from datasets import load_metric
 def map_name_to_metric_function(name):
   dict_ = {
     "rouge": rouge,
+    "macro_f1": macro_f1,
   }
   return dict_[name]
 
@@ -20,13 +21,8 @@ def rouge(targets, predictions):
 def accuracy(targets, predictions):
   return {"accuracy": 100*sklearn.metrics.accuracy_score(targets, predictions)}
 
-"""Functions for computing metrics.
-Every function must accept a list of targets and a list of predictions and
-return a dict of metrics.
-Functions should assume all text inputs are unicode strings.
-"""
-def f1(targets, predictions, average="micro"):
-  return {f"f1_{average}": 100*sklearn.metrics.f1_score(targets, predictions, average=average)}
+def macro_f1(targets, predictions):
+  return {f"f1_{average}": 100*sklearn.metrics.f1_score(targets, predictions, average="macro")}
 
 
 
