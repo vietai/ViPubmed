@@ -33,7 +33,7 @@ ViPubmedT5 Base | [ViT5_base.gin](https://github.com/justinphan3110/ViPubmed/blo
 If you find our work helpful, please cite the following:
 
 ```bib
-@misc{https://doi.org/10.48550/arxiv.2210.05598,
+@misc{vipubmed,
   doi = {10.48550/ARXIV.2210.05598},
   url = {https://arxiv.org/abs/2210.05598},
   author = {Phan, Long and Dang, Tai and Tran, Hieu and Trinh, Trieu H. and Phan, Vy and Chau, Lam D. and Luong, Minh-Thang},
