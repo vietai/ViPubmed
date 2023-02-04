@@ -1,6 +1,6 @@
 # ViPubmed: Enriching Biomedical Knowledge for Low-resource Language Through Large-Scale Translation
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg?style=flat-square)](http://makeapullrequest.com)
-[![arXiv](https://img.shields.io/badge/arXiv-2203.15827-b31b1b.svg)](https://arxiv.org/abs/2203.15827)
+[![arXiv](https://img.shields.io/badge/arXiv-2210.05598-b31b1b.svg)](https://arxiv.org/abs/2210.05598)
 
 
 ## Overview
@@ -46,8 +46,9 @@ If you find our work helpful, please cite the following:
 ```
 
 ## Acknowledgment
-We would like to thank Google for the support of Cloud credits and TPU quota!
-
+We would like to thank the Google TPU Research
+Cloud (TRC) program and Soonson Kwon (Google
+ML Ecosystem programs Lead) for their supports.
 
 
 
