@@ -6,7 +6,9 @@
 ## Overview
 Biomedical data and benchmarks are highly valuable yet very limited in low-resource languages other than English, such as Vietnamese. In this paper, we use a state-of-the-art translation model in English-Vietnamese to translate and produce both pretrained and supervised data in the biomedical domains. Further, we release ViMedNLI - a new NLP task in Vietnamese translated from MedNLI using the recently public En-vi translation model and carefully refined by human experts.
 
-Refer to our [paper](https://arxiv.org/abs/2210.05598) for more details.
+📝 [Paper](https://arxiv.org/abs/2210.05598)
+
+📝 [Blog Post](https://research.vietai.org/vipubmed)
 
 ## Methods
 ### We large scale translate 20M Pubmed Abstract from English to Vietnamese and pretrained a biomedical Encoder-Decoder model on this translated dataset.
