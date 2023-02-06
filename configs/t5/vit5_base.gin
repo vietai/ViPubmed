@@ -18,7 +18,7 @@ DROPOUT_RATE = %gin.REQUIRED
 
 # Vocabulary (shared by encoder and decoder)
 VOCABULARY = @seqio.SentencePieceVocabulary()
-seqio.SentencePieceVocabulary.sentencepiece_model_file = "gs://vietai_public/viT5/viT5_base_1024/spiece.model"
+seqio.SentencePieceVocabulary.sentencepiece_model_file = "gs://vietai_public/viT5/vocab/spiece.model"
 
 # ------------------- Optimizer ------------------------------------------------
 # `learning_rate` is set by `Trainer.learning_rate_fn`.
