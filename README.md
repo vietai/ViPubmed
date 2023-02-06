@@ -16,7 +16,7 @@ Biomedical data and benchmarks are highly valuable yet very limited in low-resou
 
 ## 1. Pretrained Models (ViPubmedT5)
 **Vocabulary:**
-[ViT5_vocab](https://storage.googleapis.com/vietai_public/viT5/viT5_base_1024/spiece.model)
+[ViT5_vocab](https://storage.googleapis.com/vietai_public/viT5/vocab/spiece.model)
 
 Model        | Gin File Location                                                                  | Checkpoint Location| Domain| Pretraining Corpus	
 ------------ | ---------------------------------------------------------------------------------- | -------------------| -------------------| -------------------
